@@ -13,4 +13,9 @@
 9. Created models file and imported models
 10. Added drinks within settings.py as an installed app
 11. Migrated models - python3 manage.py makemigrations drinks
-12. Create admin file 
+12. Create admin file
+13. Adding self function on drink model
+14. Adding rest framework to settings - "rest_framework"
+15. Creating serializers file
+16. Created views file for defining endpoints
+17. Importing JSON response from Django for views to make calls to endpoints 

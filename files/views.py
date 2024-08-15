@@ -1,11 +1,11 @@
 from django.http import JsonResponse 
 from .models import Drink 
 from .serializers import DrinkSerializer
-from rest_framework.decorators import api_views
+from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 
-@api_view('GET', 'POST')
+@api_view(['GET', 'POST'])
 def drink_list(request):
     # get all the drinks 
     # serialize them 
